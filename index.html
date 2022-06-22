@@ -12,38 +12,35 @@
 
 <body>
     <div class="main flex">
+        <p>Space for clear, shift for negative number, etc.</p>
         <div class="calculator flex">
 
             <div class="screen flex">
-                <div class="results">
-
-                </div>
-                <div class="operations">
-
-                </div>
+                <div id="results">Welcome !</div>
+                <div id="op">0</div>
             </div>
 
             <div class="inputs">
-                <div class="box red">Clear</div>
-                <div class="box orange">Del</div>
-                <div class="box op">%</div>
-                <div class="box op">/</div>
-                <div class="box">7</div>
-                <div class="box">8</div>
-                <div class="box">9</div>
-                <div class="box op">*</div>
-                <div class="box">4</div>
-                <div class="box">5</div>
-                <div class="box">6</div>
-                <div class="box op">-</div>
-                <div class="box">1</div>
-                <div class="box">2</div>
-                <div class="box">3</div>
-                <div class="box op">+</div>
-                <div class="box">.</div>
-                <div class="box">0</div>
-                <div class="box eq">=</div>
-                <div class="box op">+/-</div>
+                <div id="clear" class="box red">Clear</div>
+                <div id="del" class="box orange">Del</div>
+                <div id="mod" class="box op">%</div>
+                <div id="div" class="box op">/</div>
+                <div data-value="7" class="box">7</div>
+                <div data-value="8" class="box">8</div>
+                <div data-value="9" class="box">9</div>
+                <div id="multi" class="box op">*</div>
+                <div data-value="4" class="box">4</div>
+                <div data-value="5" class="box">5</div>
+                <div data-value="6" class="box">6</div>
+                <div id="subt" class="box op">-</div>
+                <div data-value="1" class="box">1</div>
+                <div data-value="2" class="box">2</div>
+                <div data-value="3" class="box">3</div>
+                <div id="add" class="box op">+</div>
+                <div id="float" class="box">.</div>
+                <div data-value="0" class="box">0</div>
+                <div id="equal" class="box eq">=</div>
+                <div id="neg" class="box">+/-</div>
             </div>
 
         </div>
